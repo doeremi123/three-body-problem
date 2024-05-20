@@ -60,12 +60,8 @@ plt.plot([i[0] for i in p2], [j[1] for j in p2], '^', color='green', lw = 0.05, 
 plt.plot([i[0] for i in p3], [j[1] for j in p3], '^', color='blue', lw = 0.05, markersize = 0.15, alpha=0.5)
 plt.axis('on')
 
-# optional: use if reference axes skeleton is desired,
-# ie plt.axis is set to 'on'
 ax.set_xticks([]), ax.set_yticks([])
 
-# make panes have the same color as the background
-# ax.w_xaxis.set_pane_color((0.0, 0.0, 0.0, 1.0)), ax.w_yaxis.set_pane_color((0.0, 0.0, 0.0, 1.0)), ax.w_zaxis.set_pane_color((0.0, 0.0, 0.0, 1.0))
 # plt.xlim(-12, 41)
 # plt.ylim(1, 70)
 plt.savefig("threebody_3d_1.png")
