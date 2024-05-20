@@ -61,11 +61,8 @@ plt.plot([i[0] for i in p3], [j[1] for j in p3], [k[2] for k in p3] , '^', color
 
 plt.axis('on')
 
-# optional: use if reference axes skeleton is desired,
-# ie plt.axis is set to 'on'
 ax.set_xticks([]), ax.set_yticks([]), ax.set_zticks([])
 
-# make panes have the same color as the background
 ax.xaxis.set_pane_color((0.0, 0.0, 0.0, 1.0)), ax.yaxis.set_pane_color((0.0, 0.0, 0.0, 1.0)), ax.zaxis.set_pane_color((0.0, 0.0, 0.0, 1.0))
 plt.show()
 plt.close()
